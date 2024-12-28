@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    // domains: ["https://fewcurated.vercel.app/"], // Ganti dengan domain Vercel Anda
+  },
 };
 
 export default nextConfig;
